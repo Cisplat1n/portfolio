@@ -96,8 +96,19 @@ fn all_projects() -> Vec<Project> {
         Project {
             title: "Python Code Notebook",
             desc: "A code notebook I use whilst learning Python.",
-            long_desc: "A notebook I am keeping whilst working through some Python courses for both data science and other elements of python I am interested in.",
+            long_desc: "A notebook I am keeping whilst working through some Python courses for both data science and other elements of python I am interested in. It also serves as a scratch pad for testing out code snippets and ideas in python. I also used it to refresh my skills in python to better be able to work on the python projects in my portfolio.",
             tags: &["Python", "Notes"],
+            url: "https://github.com/Cisplat1n/python_notes",
+            category: "Notes",
+            status: "WIP"
+
+        }, 
+
+                Project {
+            title: "SQL Code Notebook",
+            desc: "A code notebook I use whilst learning SQL.",
+            long_desc: "A notebook I am keeping whilst working through some SQL courses for both data science and other elements of SQL I am interested in. It also serves some as a scratch pad for testing out code snippets and ideas in SQL. I also used it to refresh my skills in SQL after some time away from the language.",
+            tags: &["SQL", "Notes"],
             url: "#",
             category: "Notes",
             status: "TBD"
